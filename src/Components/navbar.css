@@ -1,0 +1,22 @@
+body{
+    margin: 0%;
+}
+.content{
+align-items: right;
+font-weight: bolder;
+color: black;
+
+     
+}
+.navbar1{
+    background-color:#90b842;
+}
+
+.content :hover{
+     color: #161e71;
+}
+
+.content h4{
+    font-size: 1rem;
+}
+

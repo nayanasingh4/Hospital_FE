@@ -1,0 +1,14 @@
+<Card className='text-center appjs'>
+        <CardBody>
+          <CardTitle><h3>AppointmentID : {appointments.appointmentId}</h3></CardTitle>
+            <CardSubtitle>
+                <h3>Date : {appointments.appointmentDate}</h3>
+                 </CardSubtitle> 
+                  <CardText className='font-weight-bold'><h3>PatientId:{appointments.patientId}</h3></CardText>
+                <CardText className='font-weight-bold'><h3>Slot:{appointments.appointmentSlot}</h3></CardText>
+                <CardText className='font-weight-bold'><h3>with DoctorId:{appointments.doctorId}</h3></CardText>
+                
+                 
+           
+        </CardBody>
+      </Card>
